@@ -1,0 +1,214 @@
+body {	
+	margin: 0;
+    color: #333;
+    font: 16px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {	
+	background-color: aliceblue;
+	padding: 0 5px;
+}
+
+.container{
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;  
+	align-items: stretch;
+}
+
+body > header {
+	position: relative;    
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+body > header:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+#heading {	
+	margin: 0 auto;
+    margin-left: 26%;
+}
+
+#resume {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -26px;
+    border: 2px solid whitesmoke;
+    border-right: 0;
+    padding: 0 10px;
+}
+
+#image-div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25%;
+	height: 100%;
+	min-width: 225px;
+    padding-top: 25px;
+	margin-left: 2%;
+	background-color: #39B7BD;
+    text-align: center;
+    z-index: 100;
+}
+
+img {
+    width: 87%;
+    border-radius: 50%;
+}
+
+h1, h2, h3 {
+    font: 300 16px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;   
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+aside {    
+    width: 25%;
+    min-width: 225px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+	margin-left: 2%;
+    background-color: #39B7BD;
+    text-align: center;
+    z-index: 100;
+}
+
+aside section:first-of-type {
+    margin-top: 0;
+}
+
+aside header {
+    background-color: aliceblue;
+    width: 80%;
+    margin: 20px auto;
+}
+
+aside h2 {
+    padding: 7px 0;
+}
+
+aside h3 {
+    font-size: 1em;
+    color: white;
+    margin: 10px;
+}
+
+h3.contact {
+	text-align: left;
+	margin-left: 36%;
+}
+
+aside p {
+    margin: 5px;
+}
+
+
+.skills li {
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+p.centered {
+    text-align: center;
+    font-style: italic;
+    margin: 0;
+}
+
+p.important {
+	width: 80%;
+	margin: auto auto;	
+	background-color: #624245;
+	margin-top: 5px;
+	margin-bottom: 14px;
+	padding: 2px 0;
+}
+
+p.important a {
+	color: aliceblue;
+}
+
+p.important:hover {
+	background-color: aliceblue;		
+}
+
+p.important:hover  a, p.important a:hover{
+	color: #624245;		
+}
+
+main {    
+    width: 60%;   
+    margin: 0 auto;
+}
+
+main article:first-of-type {
+    padding-top: 30px;
+}
+
+article header {
+    color: white;
+    background-color: #39B7BD;
+}
+
+article p {
+    text-align: justify;
+}
+
+article h2, article h3 {
+    text-align: center;
+    padding: 7px 0;
+    margin-bottom: 3px;
+}
+
+hr {   
+	width: 70px;
+    height: 3px;
+    border: 0;
+    background-color: #eee;
+}
+
+
+article span {
+    text-align: center;
+}
+
+.thanks p {
+    font-family: "Sofia", cursive;
+    font-size: 1.8em;
+    color: #666;
+    padding: 20px;
+    text-align: center;
+}
+small {
+	font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 95%;
+	float: right;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}

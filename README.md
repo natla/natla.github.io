@@ -1,2 +1,2 @@
-# natla.github.io
-Natalia's Personal Site
+# online-resume
+Natalia Malkovska's online curriculum vitae
